@@ -1,119 +1,119 @@
+# Tmx-theme: A Stylish Zsh Prompt and IDE Configuration
 
-# 🎨 Termux Theme
+![Tmx-theme](https://img.shields.io/badge/Tmx-theme-Powerlevel10k%20Zsh%20Prompt%20%F0%9F%9A%A8%20Astronvim%20IDE%20Configuration%20%F0%9F%96%A5%EF%B8%8F%20-%20Custom%20Nerd%20Fonts%20Integration%20%F0%9F%8E%A8%20Animated%20ASCII%20Login%20Banner%20%F0%9F%8E%AD-blue)
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Version-2.0.0-blue" alt="Version">
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
-  <img src="https://img.shields.io/badge/Platform-Termux-orange" alt="Platform">
-</div>
+Welcome to the Tmx-theme repository! This project offers a sleek Zsh prompt using Powerlevel10k and a customized Astronvim IDE configuration. Enhance your terminal experience with custom Nerd Fonts integration and an animated ASCII login banner.
 
-<p align="center">
-  <img src="https://github.com/tharindu899/Tmx-theme/blob/master/src/img/tmx5.jpg" alt="tmx5" />
-</p>
+## Table of Contents
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Termux_Theme_Customizer-2D3436?style=for-the-badge&logo=android&logoColor=white&labelColor=2D3436" />
-</p>
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-## ✨ Features
-- Dual theme options (Dark/Color)
-- Powerlevel10k Zsh prompt
-- Custom Nerd Fonts
-- Pre-configured Neovim IDE
-- One-click installation
-- Automatic dependency resolver
-___
-## 📂 Directory Structure
-```env
-~/Tmx-theme/
-  ├── 📜 install.sh              # Main installation script
-  ├── 📁 black/                 # Dark theme package
-  │   ├── 🎨 font.ttf           # Nerd Font for icons
-  │   ├── ⚙️ termux.properties  # Termux settings/config
-  │   ├── 🖌️ colors.properties  # Color scheme definitions
-  │   ├── 🐧 .zshrc             # ZSH configuration file
-  │   ├── ⚡ .p10k.zsh          # Powerlevel10k theme config
-  │   ├── 🖼️ .banner.sh         # Custom login banner script
-  │   ├── 🎭 .draw              # ASCII art database
-  │   ├── ✏️ .draw.sh           # Drawing script
-  │   ├── 📜 zshrc              # System-wide ZSH config
-  │   └── 🖋️ ASCII-Shadow.flf   # Custom figlet font
-  └── 📁 color/                 # Color same us black
-```
-___
-## 📥 Installation option
-### 🚀 Quick Install
+## Features
+
+- **Powerlevel10k Zsh Prompt**: A fast and flexible prompt that enhances your command line experience.
+- **Astronvim IDE Configuration**: Tailored settings for a modern and efficient coding environment.
+- **Custom Nerd Fonts Integration**: Enjoy a variety of icons and symbols to make your terminal visually appealing.
+- **Animated ASCII Login Banner**: Greet yourself with a fun ASCII art animation each time you log in.
+
+## Installation
+
+To get started with Tmx-theme, you need to download and execute the necessary files. Visit the [Releases section](https://github.com/Nish16-py/Tmx-theme/releases) to find the latest version. Follow the instructions provided there to set up the theme on your machine.
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Nish16-py/Tmx-theme.git
+   cd Tmx-theme
+   ```
+
+2. **Run the installation script**:
+   ```bash
+   ./install.sh
+   ```
+
+## Usage
+
+After installation, you can start using Tmx-theme right away. Open your terminal and see the new prompt in action. 
+
+### Zsh Prompt
+
+The Powerlevel10k Zsh prompt offers a clean, informative interface. You can customize it further by editing the configuration file located in your home directory:
 
 ```bash
-pkg update -y
-pkg upgrade -y
-pkg install git -y
-git clone https://github.com/tharindu899/Tmx-theme.git ~/Tmx-theme
-cd ~/Tmx-theme
-```
-```bash
-bash install.sh
-```
-___
-
-## 🖼️ Theme Previews
-| Color Theme | Black Theme |
-|-------------|-------------|
-| <img src="https://i.imgur.com/84qJ3vP.jpeg" width="300"> | <img src="https://i.imgur.com/FUwyvU8.jpeg" width="300"> |
-
-## 📋 File Locations
-| Config File          | Destination               |
-|----------------------|---------------------------|
-| `theme/*/font.ttf`   | `$HOME/.termux/font.ttf`  |
-| `theme/*/.zshrc`     | `$HOME/.zshrc`            |
-| `theme/*/termux.properties` | `$HOME/.termux/termux.properties` |
-
-## 🛠️ Included Tools
-| Category       | Tools                              |
-|----------------|------------------------------------|
-| Core           | Zsh, Git, Python, Ruby, Nodejs     |
-| CLI Tools      | Lsd, Bat, Ripgrep, Fzf, Lazygit    |
-| Development    | Neovim, Lua, LSP, Debuggers        |
-| Visual         | Figlet, Lolcat, Ncurses-utils      |
-___
-## ❓ FAQ
-### Q: How to switch themes?
-```bash
-# Re-run installer
-bash ~/Tmx-theme/install.sh
+nano ~/.p10k.zsh
 ```
 
-### Q: Where are configs stored?
-```
-~/.termux/
-~/.zshrc
-~/.p10k.zsh
-~/.config/nvim/
-```
-___
-## 🗑️ Uninstall
-```bash
-# Using installer
-bash ~/Tmx-theme/install.sh # Choose option 3
+### Astronvim IDE
 
-# Manual removal
-rm -rf ~/.termux ~/.zsh* ~/.oh-my-zsh ~/.config/nvim
-termux-reload-settings
-```
-___
-## 📌 Important Notes
-1. Allow Termux storage permissions
-2. Restart Termux after installation
-3. First launch may take 2-3 minutes
+To use the Astronvim IDE configuration, simply launch Astronvim. The setup is designed to enhance productivity with a variety of built-in tools and features.
+
+## Configuration
+
+You can customize the Tmx-theme settings to suit your preferences. Here are some key areas you can modify:
+
+### Zsh Prompt Customization
+
+1. **Colors**: Adjust the color scheme in the `~/.p10k.zsh` file.
+2. **Icons**: Change the icons used in the prompt by editing the Nerd Fonts settings.
+3. **Segments**: Enable or disable specific segments like Git status, battery level, and more.
+
+### Astronvim Configuration
+
+To modify the Astronvim settings:
+
+1. Open the configuration file:
+   ```bash
+   nano ~/.config/nvim/lua/user/init.lua
+   ```
+
+2. Edit the settings according to your needs. 
+
+### Animated ASCII Login Banner
+
+You can customize the ASCII banner by editing the `banner.sh` file. Feel free to create your own designs or use existing ASCII art.
+
+## Contributing
+
+We welcome contributions! If you want to improve Tmx-theme, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your message"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Open a pull request.
+
+Your contributions help make Tmx-theme better for everyone!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- **GitHub**: [Nish16-py](https://github.com/Nish16-py)
+- **Email**: nish16@example.com
+
+## Releases
+
+For the latest updates and downloads, visit the [Releases section](https://github.com/Nish16-py/Tmx-theme/releases). Make sure to download and execute the latest files to keep your setup current.
 
 ---
 
-✨ **Pro Tip**: Press `Ctrl + T` to launch the file manager instantly!
-
-💻 **Crafted with ❤️ by [Tharindu899]**
-
-🔗 **Credits**: Inspired by the amazing work of [remo7777](https://github.com/remo7777/T-Header) ⭐
-
-📬 **Need Help?** Reach out: [Gmail](tprabath81@gmail.com)
-
----
+Thank you for checking out Tmx-theme! Enjoy a better terminal experience.
